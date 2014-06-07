@@ -1,0 +1,1 @@
+angular.module('index.module.rootApp', [ 'global.directives', 'global.services', 'ngRoute' ]);

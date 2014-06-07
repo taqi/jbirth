@@ -1,0 +1,12 @@
+<div class="row-fluid content" ng-controller="index.controllers.search"  >
+	<span class="vertical-middle"><div class="col-md-12 text-center">
+			<div class="input-group input-group-lg">
+				<input type="text" class="form-control" ng-model="searchText" ng-keydown="keyPressed($event)">
+				<div class="input-group-btn">
+					<button class="btn btn-success" ng-click="search()">
+						<i class="fa fa-search"></i>
+					</button>
+				</div>
+			</div>
+		</div></span>
+</div>

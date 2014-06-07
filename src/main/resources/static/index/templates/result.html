@@ -1,0 +1,36 @@
+<div ng-controller="index.controllers.result">
+	<div class="row-fluid result-content">
+		<div class="col-md-12 text-center">
+			<div class="input-group input-group-lg">
+				<input type="text" class="form-control" ng-model="searchText" ng-keydown="keyPressed($event)">
+				<div class="input-group-btn">
+					<button class="btn btn-success" ng-click="search()">
+						<i class="fa fa-search"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="col-md-7">
+			<ul class="list-group">
+				<div class="list-group-item" ng-repeat="item in searchResult.links">
+					<a href="http://{{item}}">
+						<h4 class="list-group-item-heading">{{item}}</h4>
+						<p class="list-group-item-text">{{item}}</p>
+					</a>
+				</div>
+			</ul>
+		</div>
+		<div class="col-md-5">
+			<ul class="list-group">
+				<div ng-repeat="item in searchResult.posts">
+					<a href="{{item.link}}" class="list-group-item">
+						<h4 class="list-group-item-heading">{{item.title}}</h4>
+						<p class="list-group-item-text">{{item.text}}</p>
+					</a>
+				</div>
+			</ul>
+		</div>
+	</div>
+</div>
