@@ -2,10 +2,10 @@
 	<span class="vertical-middle text-center">
 		<div class="col-md-offset-4 col-md-4 text-center">
 			<div class="btn-group-vertical btn-group-justified">
-				<input type="text" class="btn-group list-group-item" ng-model="searchText" placeholder="login" />
-				<input type="text" class="btn-group list-group-item" ng-model="searchText" placeholder="login" />
+				<input type="text" class="btn-group list-group-item" ng-model="currentUser.login" placeholder="login" />
+				<input type="text" class="btn-group list-group-item" ng-model="currentUser.password" placeholder="password" />
 				<div class="btn-group">
-					<a class=" btn btn-success">login</a>
+					<a class=" btn btn-success" ng-click="login()">login</a>
 				</div>
 			</div>
 		</div>
