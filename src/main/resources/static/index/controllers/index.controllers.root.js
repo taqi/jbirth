@@ -3,6 +3,5 @@ angular.module('index.module.rootApp')
     $scope.login = function() {
         var loginResource = new LoginResource({login:$scope.currentUser.login, password: $scope.currentUser.password});
         loginResource.$login();
-        alert('login:'+$scope.currentUser.login+"::"+$scope.currentUser.password );
     };
 } ]);
