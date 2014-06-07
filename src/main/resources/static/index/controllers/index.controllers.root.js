@@ -1,4 +1,4 @@
-angular.module('index.module.rootApp').controller('index.controllers.result',
+angular.module('index.module.rootApp').controller('index.controllers.root',
         [ '$scope', '$location', 'searchService', function($scope, $location, searchService) {
             $scope.searchResult = new Array();
             var result = $location.search();

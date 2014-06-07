@@ -19,12 +19,9 @@
 <script src="/static/angularstrap/angular-strap.tpl.min.js"></script>
 
 <script type="text/javascript" src="/static/global/modules/global.modules.js"></script>
-<script type="text/javascript" src="/static/global/directives/global.directive.headerMenu.js"></script>
-<script type="text/javascript" src="/static/global/services/global.search.service.js"></script>
 
 <script type="text/javascript" src="/static/index/modules/index.root.module.js"></script>
 <script type="text/javascript" src="/static/index/configs/index.rootmodule.config.js"></script>
-<script type="text/javascript" src="/static/index/controllers/index.controllers.search.js"></script>
 <script type="text/javascript" src="/static/index/controllers/index.controllers.result.js"></script>
 
 <script type="text/javascript" src="/static/jquery/ui/jquery-ui.js"></script>

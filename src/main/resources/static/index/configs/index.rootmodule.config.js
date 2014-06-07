@@ -2,6 +2,6 @@ angular.module('index.module.rootApp').config([ '$routeProvider', function($rout
     $routeProvider.when('/result', {
         templateUrl : '/static/index/templates/result.html'
     }).otherwise({
-        templateUrl : '/static/index/templates/search.html'
+        templateUrl : '/static/index/templates/root.html'
     });
 } ]);
