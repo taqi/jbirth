@@ -30,3 +30,13 @@ CREATE COLUMN FAMILY users_groups
 with comparator=UTF8Type 
 AND key_validation_class=UTF8Type 
 AND default_validation_class=UTF8Type;
+
+use jbirth;
+set users['1']['login'] = 'jbirth';
+set users['1']['password'] = 'jbirth';
+set users['1']['email'] = 'jbirth@example.com';
+set users['1']['name'] = 'jbirth';
+set users['1']['age'] = int(42);
+
+set users_groups['1']['ROLE_USER'] = '';
+

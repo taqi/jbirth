@@ -1,1 +1,1 @@
-angular.module('index.module.rootApp', [ 'global.directives', 'global.services', 'ngRoute' ]);
+angular.module('index.module.rootApp', [ 'global.resources', 'global.services', 'global.directives', 'ngRoute' ]);

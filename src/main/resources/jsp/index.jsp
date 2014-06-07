@@ -13,13 +13,13 @@
 <script type="text/javascript" src="/static/angular-1.2.9/angular-route.js"></script>
 
 <script type="text/javascript" src="/static/global/modules/global.modules.js"></script>
+<script type="text/javascript" src="/static/global/resources/global.resources.login.js"></script>
 
 <script type="text/javascript" src="/static/index/modules/index.root.module.js"></script>
 <script type="text/javascript" src="/static/index/configs/index.rootmodule.config.js"></script>
 <script type="text/javascript" src="/static/index/controllers/index.controllers.root.js"></script>
 
 <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="/static/index/index.css" rel="stylesheet">
 <link href="/static/global/css/global.css" rel="stylesheet">
 <link href="/static/index/css/index.css" rel="stylesheet">
 <link href="/static/angular/angular-motion.css" rel="stylesheet">
