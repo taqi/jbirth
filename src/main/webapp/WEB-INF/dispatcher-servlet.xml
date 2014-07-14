@@ -18,7 +18,7 @@
  </bean>
  <mvc:default-servlet-handler />
  <mvc:resources location="file:/tmp/, WEB-INF/classes/static/" mapping="/static/**" />
- <context:component-scan base-package="com.keebraa.jbirth.controllers" />
+ <context:component-scan base-package="com.keebraa.jbirth" />
 
  <bean id="userDetailsProvider" class="com.keebraa.jbirth.security.JBirthAuthenticationProvider" />
  <bean id="authenticationEntryPoint" class="com.keebraa.jbirth.security.JBirthAuthenticationEntryPoint" />
