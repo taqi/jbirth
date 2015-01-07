@@ -29,6 +29,7 @@
 <body>
 	<header-menu></header-menu>
 	<div class="container" ng-view>
+	<h3><c:url value="/index.do"/></h3>
 	</div>
 </body>
 </html>
