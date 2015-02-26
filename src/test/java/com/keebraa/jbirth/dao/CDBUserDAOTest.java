@@ -16,6 +16,8 @@ import me.prettyprint.cassandra.service.template.ColumnFamilyTemplate;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.keebraa.jbirth.dao.cassandra.hector.BasicCassandraDAO;
+import com.keebraa.jbirth.dao.cassandra.hector.CDBUserDAO;
 import com.keebraa.jbirth.dao.helpers.UserHelper;
 import com.keebraa.jbirth.dao.objects.DBUser;
 

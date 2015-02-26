@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response;
 
 import org.springframework.security.core.context.SecurityContextHolder;
 
-import com.keebraa.jbirth.dao.CDBUserDAO;
+import com.keebraa.jbirth.dao.cassandra.hector.CDBUserDAO;
 import com.keebraa.jbirth.dao.objects.DBUser;
 import com.keebraa.jbirth.rest.objects.RSUserInfo;
 import com.keebraa.jbirth.services.AuthService;

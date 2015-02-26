@@ -1,0 +1,21 @@
+<div class="ui four column centered grid" style="margin-top: 100px;">
+	<div class="ui segment column">
+		<p></p>
+		<div ng-show="loading" class="ui active dimmer">
+			<div class="ui loader"></div>
+		</div>
+		<div class="ui fluid input">
+			<input type="text" class="btn-group list-group-item" ng-model="currentUser.login" placeholder="login" />
+		</div>
+		<br />
+		<div class="ui fluid input">
+			<input type="text" class="btn-group list-group-item" ng-model="currentUser.password" placeholder="password" />
+		</div>
+		<br />
+		<div class="2 fluid ui buttons">
+			<div class="ui button">Sign up</div>
+			<div class="or"></div>
+			<div class="ui positive button" ng-click="login()">Sign in</div>
+		</div>
+	</div>
+</div>
